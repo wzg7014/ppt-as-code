@@ -1,0 +1,13 @@
+# 密钥（绝不入 Git）
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
