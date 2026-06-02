@@ -1,0 +1,33 @@
+name: Feature request
+description: Suggest an improvement or new workflow support
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What do you need?
+      description: Describe the PPT workflow or maintenance problem.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What should change in this repository?
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Agent instructions
+        - Image generation
+        - Prompt patterns
+        - Examples
+        - Documentation
+        - Other
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Add examples, links, or screenshots if useful.

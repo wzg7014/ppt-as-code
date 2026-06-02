@@ -1,5 +1,12 @@
 # 密钥（绝不入 Git）
 .env
+.env.*
+
+# 用户项目内容和生成结果
+/content/
+/progress.md
+/ppt-pages/
+/ppt-ref-images/
 
 # Python
 __pycache__/
